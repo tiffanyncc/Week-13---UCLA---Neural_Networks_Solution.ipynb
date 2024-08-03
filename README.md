@@ -64,17 +64,17 @@ The dataset contains several parameters which are considered important during th
 
 ## Running the Project
 
-1. Ensure the data file `Admission.csv` is placed in the `data/raw` directory.
+1. Ensure the data file `Admission.csv` is placed in the `src/data/raw` directory.
 
 2. Run the main script:
     ```
     python main.py
     ```
 
-3. The script will load the data, preprocess it, train a neural network model, evaluate it, and save the resulting plots in the `visualization/images` directory.
+3. The script will load the data, preprocess it, train a neural network model, evaluate it, and save the resulting plots in the `src/visualization/images` directory.
 
 ## Additional Information
 
 - The project uses a feedforward neural network with 2 hidden layers.
 - Hyperparameter tuning is performed using GridSearchCV.
-- All generated plots are saved in the `visualization/images` directory.
+- All generated plots are saved in the `src/visualization/images` directory.
